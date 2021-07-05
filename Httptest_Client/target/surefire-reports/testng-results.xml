@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1444" started-at="2021-07-05T17:42:14 CST" finished-at="2021-07-05T17:42:15 CST">
+    <groups>
+    </groups>
+    <test name="case" duration-ms="1444" started-at="2021-07-05T17:42:14 CST" finished-at="2021-07-05T17:42:15 CST">
+      <class name="cn.httptest.Case.CrudCase">
+        <test-method status="PASS" signature="Crudtest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.CrudCase@2a17b7b6]" name="Crudtest" duration-ms="19" started-at="2021-07-05T17:42:15 CST" data-provider="CrudData" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@676cf48]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Crudtest -->
+      </class> <!-- cn.httptest.Case.CrudCase -->
+      <class name="cn.httptest.Case.RegisterCase">
+        <test-method status="PASS" signature="RegistTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.RegisterCase@7d0587f1]" name="RegistTest" duration-ms="700" started-at="2021-07-05T17:42:14 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@576d5deb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistTest -->
+        <test-method status="PASS" signature="RegistTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.RegisterCase@7d0587f1]" name="RegistTest" duration-ms="9" started-at="2021-07-05T17:42:15 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@c94fd30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistTest -->
+        <test-method status="PASS" signature="RegistTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.RegisterCase@7d0587f1]" name="RegistTest" duration-ms="11" started-at="2021-07-05T17:42:15 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@524f3b3a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistTest -->
+        <test-method status="PASS" signature="RegistTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.RegisterCase@7d0587f1]" name="RegistTest" duration-ms="11" started-at="2021-07-05T17:42:15 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@45312be2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistTest -->
+        <test-method status="PASS" signature="RegistTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.RegisterCase@7d0587f1]" name="RegistTest" duration-ms="12" started-at="2021-07-05T17:42:15 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@50d13246]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistTest -->
+        <test-method status="PASS" signature="RegistTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.RegisterCase@7d0587f1]" name="RegistTest" duration-ms="12" started-at="2021-07-05T17:42:15 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@42b02722]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistTest -->
+      </class> <!-- cn.httptest.Case.RegisterCase -->
+      <class name="cn.httptest.Case.LastOutput">
+        <test-method status="PASS" signature="Lastoutput()[pri:0, instance:cn.httptest.Case.LastOutput@22a67b4]" name="Lastoutput" is-config="true" duration-ms="531" started-at="2021-07-05T17:42:15 CST" finished-at="2021-07-05T17:42:16 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lastoutput -->
+      </class> <!-- cn.httptest.Case.LastOutput -->
+      <class name="cn.httptest.Case.LoginCase">
+        <test-method status="PASS" signature="LoginTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.LoginCase@5d76b067]" name="LoginTest" duration-ms="12" started-at="2021-07-05T17:42:15 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@6bffbc6d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.LoginCase@5d76b067]" name="LoginTest" duration-ms="9" started-at="2021-07-05T17:42:15 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@5bf8fa12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.LoginCase@5d76b067]" name="LoginTest" duration-ms="12" started-at="2021-07-05T17:42:15 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@2f16c6b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.LoginCase@5d76b067]" name="LoginTest" duration-ms="10" started-at="2021-07-05T17:42:15 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@6dab9b6d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(cn.httptest.pojo.Api_Case)[pri:0, instance:cn.httptest.Case.LoginCase@5d76b067]" name="LoginTest" duration-ms="11" started-at="2021-07-05T17:42:15 CST" data-provider="Datas" finished-at="2021-07-05T17:42:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.httptest.pojo.Api_Case@6d025197]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- cn.httptest.Case.LoginCase -->
+    </test> <!-- case -->
+  </suite> <!-- Suite -->
+</testng-results>

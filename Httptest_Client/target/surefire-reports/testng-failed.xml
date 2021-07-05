@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="case(failed)">
+    <classes>
+      <class name="cn.httptest.Case.LoginCase">
+        <methods>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- cn.httptest.Case.LoginCase -->
+      <class name="cn.httptest.Case.RegisterCase">
+        <methods>
+          <include name="RegistTest"/>
+        </methods>
+      </class> <!-- cn.httptest.Case.RegisterCase -->
+      <class name="cn.httptest.Case.CrudCase">
+        <methods>
+          <include name="Crudtest"/>
+        </methods>
+      </class> <!-- cn.httptest.Case.CrudCase -->
+    </classes>
+  </test> <!-- case(failed) -->
+</suite> <!-- Failed suite [Suite] -->
