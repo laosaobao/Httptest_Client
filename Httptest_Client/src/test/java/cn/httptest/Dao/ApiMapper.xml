@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.httptest.Dao.ApiMapper">
+ <select id="SelectAll" resultType="Api_info">
+  SELECT *from Api_info
+ </select>
+ <select id="SelectApiById" parameterType="Integer" resultType="Api_info">
+  SELECT *FROM Api_info <where> ApiId=#{arg0}</where>
+ </select>
+ <select id="SelectApiByName" parameterType="String" resultType="Api_info">
+  SELECT *FROM Api_info <where> ApiName=#{arg0}</where>
+ </select>
+ <select id="GetApiIdByName" parameterType="String" resultType="Integer">
+  SELECT ApiId FROM Api_info <where> ApiName=#{arg0}</where>
+ </select>
+ <select id="GetApi_CaseByApiName" parameterType="String" resultType="Api_Case">
+  SELECT api_info.*,case_info.*  from api_info,case_info
+  <where>api_info.ApiId=case_info.ApiId</where>
+  and ApiName=#{ApiName}
+ </select>
+ <!--<select id="login" resultType="User">-->
+  <!--select *from user-->
+  <!--<where>-->
+    <!--account=#{arg0}-->
+  <!--</where>-->
+   <!--and password=#{arg1}-->
+ <!--</select>-->
+<!--<select id="selectbyaccount" parameterType="String" resultType="User">-->
+ <!--select*from user where account=#{arg0}-->
+<!--</select>-->
+ <!--<insert id="regist" parameterType="User">-->
+ <!--insert into user(account,password,username,email,phone,classname,addr,state)-->
+  <!--values(#{account},#{password},#{username},#{email},#{phone},#{classname},#{addr},#{state})-->
+ <!--</insert>-->
+<!--<select id="finduserbyUid" parameterType="Integer" resultType="User">-->
+ <!--select*from user where uid=#{id}-->
+<!--</select>-->
+ <!--<select id="find_LoveProduct" resultType="String" >-->
+  <!--select love_productList from love_product where uid=#{uid}-->
+ <!--</select>-->
+ <!--<update id="update_LoveProduct">-->
+  <!--UPDATE love_product set love_productList=#{arg0} where uid=#{arg1}-->
+ <!--</update>-->
+ <!--<insert id="add_LoveProduct">-->
+  <!--INSERT into love_product(uid,love_productList)-->
+  <!--values(#{arg1},#{arg0})-->
+ <!--</insert>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</mapper>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.httptest.Dao.VariableinfoMapper">
+ <select id="selectAllVariable" resultType="Variable_info">
+  SELECT *from Variable_info
+ </select>
+
+ <!--<select id="login" resultType="User">-->
+  <!--select *from user-->
+  <!--<where>-->
+    <!--account=#{arg0}-->
+  <!--</where>-->
+   <!--and password=#{arg1}-->
+ <!--</select>-->
+<!--<select id="selectbyaccount" parameterType="String" resultType="User">-->
+ <!--select*from user where account=#{arg0}-->
+<!--</select>-->
+ <!--<insert id="regist" parameterType="User">-->
+ <!--insert into user(account,password,username,email,phone,classname,addr,state)-->
+  <!--values(#{account},#{password},#{username},#{email},#{phone},#{classname},#{addr},#{state})-->
+ <!--</insert>-->
+<!--<select id="finduserbyUid" parameterType="Integer" resultType="User">-->
+ <!--select*from user where uid=#{id}-->
+<!--</select>-->
+ <!--<select id="find_LoveProduct" resultType="String" >-->
+  <!--select love_productList from love_product where uid=#{uid}-->
+ <!--</select>-->
+ <!--<update id="update_LoveProduct">-->
+  <!--UPDATE love_product set love_productList=#{arg0} where uid=#{arg1}-->
+ <!--</update>-->
+ <!--<insert id="add_LoveProduct">-->
+  <!--INSERT into love_product(uid,love_productList)-->
+  <!--values(#{arg1},#{arg0})-->
+ <!--</insert>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</mapper>

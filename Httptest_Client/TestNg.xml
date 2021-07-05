@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--套件-->
+<suite name="Suite" parallel="false">
+
+    <!--  <parameter name="usn" value="admin" />
+  <parameter name="pwd" value="111111" />-->
+    <!-- <listeners> -->
+    <!-- <listener class-name="org.uncommons.reportng.HTMLReporter" /> -->
+    <!-- </listeners> -->
+    <!--测试集-->
+    <test name="case" preserve-order="true"><!-- true表示test里的class顺序执行-->
+        <classes>
+            <!--   <class name="com.gmsd.testcase.Login"/> -->
+            <!--   <class name="com.gmsd.testcase.TestLogin"/> -->
+            <class name="cn.httptest.Case.LastOutput"/>
+            <class name="cn.httptest.Case.RegisterCase"/>
+            <class name="cn.httptest.Case.LoginCase"/>
+            <class name="cn.httptest.Case.CrudCase"/>
+        </classes>
+    </test> <!-- Test -->
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <typeAliases><package name="cn.httptest.pojo"/></typeAliases>
+    <!-- 环境配置 -->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <!-- 数据库连接相关配置 ,这里动态获取config.properties文件中的内容-->
+            <dataSource type="cn.httptest.util.HikariDataSourceFactory"><!-- Hikari连接池工厂类类的路径（继承mybatis提供第三方连接池的类） -->
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- mapping文件路径配置 -->
+    <mappers>
+
+        <package name="cn.httptest.Dao" />
+    </mappers>
+
+</configuration>
