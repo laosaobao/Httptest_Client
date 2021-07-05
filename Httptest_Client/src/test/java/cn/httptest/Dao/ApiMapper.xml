@@ -15,8 +15,8 @@
   SELECT ApiId FROM Api_info <where> ApiName=#{arg0}</where>
  </select>
  <select id="GetApi_CaseByApiName" parameterType="String" resultType="Api_Case">
-  SELECT api_info.*,case_info.*  from api_info,case_info
-  <where>api_info.ApiId=case_info.ApiId</where>
+  SELECT Api_info.*,Case_info.*  from Api_info,Case_info
+  <where>Api_info.ApiId=Case_info.ApiId</where>
   and ApiName=#{ApiName}
  </select>
  <!--<select id="login" resultType="User">-->
